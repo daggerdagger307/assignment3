@@ -152,10 +152,10 @@ figure a:visited {
 }
 
 .rtt {
-    position:absolute;
-    top: 30rem;
-    right: 5px;
-    width: 2rem;
+    position: fixed;
+    top: 35rem;
+    right: 0px;
+    width: 3rem;
     height:auto;
 }
 
