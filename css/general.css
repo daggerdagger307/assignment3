@@ -197,7 +197,7 @@ figure a:visited {
 }
 
 .footer {
-    margin: 10;
+    margin: 0;
     padding: .5rem 5% .5rem;
     background-color: black;
 }
