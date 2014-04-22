@@ -17,8 +17,8 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    font-family: 'Paytone One', sans-serif;
-    font-weight: 300;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 200;
     font-size: 100%;
 }
 
@@ -298,7 +298,6 @@ figure a:visited {
     margin: 1.5rem 0 1.5rem;
     padding: 0;
     background-color: rgba(255, 255, 255, .60);
-    font-family: 'Paytone One', sans-serif;
 }
 
 .product img {
@@ -315,6 +314,7 @@ figure a:visited {
     margin: 0;
     padding: .5rem;
     color: black;
+    line-height: 1.1rem;
     
 }
 
@@ -367,7 +367,7 @@ figure a:visited {
 }
 
 .hoodiesctitles {
-    width: 12rem;
+    width: 10rem;
 }
 
 
