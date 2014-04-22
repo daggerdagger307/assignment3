@@ -30,7 +30,7 @@ img {
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../images/Background.gif)
+    background-image: url(../images/background.jpg)
 }
 
 header {
@@ -160,8 +160,8 @@ h2 {
 
 .rtt {
     position: fixed;
-    top: 35rem;
-    right: 0px;
+    bottom: 5rem;
+    right: 0;
     width: 3rem;
     height:auto;
 }
