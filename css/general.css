@@ -18,7 +18,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
     font-family: itc avant garde gothic, futura, sans-serif; 
-    font-weight: 200;
+    font-weight: 300;
     font-size: 100%;
 }
 
@@ -207,9 +207,22 @@ figure a:visited {
     position: fixed;
 }
 
+.story {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    Background-color: #0071ce;
+    background-position: center, center;
+    background-size: 35rem;
+    padding: 8%;
+}
+
+.storytitles {
+    width: 12rem;
+}
+
 .story1 {
     overflow: hidden;
-    margin: 0 0 1.5rem;
+    margin: 1.5rem 0 1.5rem;
     padding: 0;
     background-color: rgba(255, 255, 255, .60);
 }
@@ -255,16 +268,16 @@ figure a:visited {
 
 .who1{
     overflow: hidden;
-    margin: 0 0 1.5rem;
+    margin: 1.5rem 0 1.5rem;
     padding: 0;
-    background-color: black
+    background-color: white;
 }
 
 .who1 img {
     float: left;
     width: 100%; 
     height: 10rem;
-    margin: 0 5% 0 0;
+    margin: 0 5% .5rem 0;
     padding: 0;
     border: .25rem solid black;
 }
@@ -273,39 +286,16 @@ figure a:visited {
     float: inherit;
     width: 100%;
     margin: 0;
-    padding: .5rem;
-    background-color: black; /* Visual Aid */
-    color: white;
+    padding: .3rem 3%;
+    background-color: rgba(255, 255, 255, .60); /* Visual Aid */
+    color: black;
+    
 }
 
-.who2 {
-    overflow: hidden;
-    margin: 0 0 1.5rem;
-    padding: 0;
-    background-color: black
-}
-
-.who2 img {
-    float: left;
-    width: 100%; 
-    height: 10rem;
-    margin: 0 5% 0 0;
-    padding: 0;
-    border: .25rem solid black;
-}
-
-.who2 figcaption {
-    float: inherit;
-    width: 100%;
-    margin: 0;
-    padding: .5rem;
-    background-color: black; /* Visual Aid */
-    color: white;
-}
 
 .product {
     overflow: hidden;
-    margin: 0 0 1.5rem;
+    margin: 1.5rem 0 1.5rem;
     padding: 0;
     background-color: rgba(255, 255, 255, .60);
 }
@@ -324,5 +314,61 @@ figure a:visited {
     margin: 0;
     padding: .5rem;
     color: black;
+    
 }
+
+.fivepanels {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    Background-color: #0071ce;
+    background-position: center, center;
+    background-size: 35rem;
+    padding: 8%;
+}
+
+.five {
+    width: 12rem;
+}
+
+.tees {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    Background-color: #0071ce;
+    background-position: center, center;
+    background-size: 35rem;
+    padding: 8%;
+}
+
+.teetitles {
+    width: 12rem;
+}
+
+.whois {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    Background-color: #0071ce;
+    background-position: center, center;
+    background-size: 35rem;
+    padding: 8%;
+}
+
+.whoistitles {
+    width: 22rem;
+}
+
+.hoodies {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    Background-color: #0071ce;
+    background-position: center, center;
+    background-size: 35rem;
+    padding: 8%;
+}
+
+.hoodiestitles {
+    width: 12rem;
+}
+
+
+
 
