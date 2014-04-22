@@ -17,7 +17,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', 'helvetica', sans-serif;
     font-weight: 200;
     font-size: 100%;
 }
@@ -74,7 +74,7 @@ header {
 	transition: all 250ms linear;
 }
 
-.nav-top[data-state="expanded"] {
+.nav-top[data-state= "expanded"] {
 	max-height: 14em; /* max height of dropdown */
 }
 
@@ -98,7 +98,7 @@ header {
     margin: 0 0 1.5rem;
     background-color: black;
     background-image: url(../images/header.jpg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
     border-bottom: solid 1.25rem black; 
@@ -125,7 +125,7 @@ h2 {
 }
 
 .bucket1 { 
-    overflow:  hidden;
+    overflow: hidden;
 }
 
 .bucket figure {
@@ -142,9 +142,7 @@ h2 {
     margin: 0 10% 1.5rem 0;
     padding:.25rem;
     background-color: black;
-    text-decoration: none; 
-        
-        
+    text-decoration: none;      
 }
 
 .bucket a:nth-child(even) {
@@ -163,9 +161,8 @@ h2 {
     bottom: 5rem;
     right: 0;
     width: 3rem;
-    height:auto;
+    height: auto;
 }
-
 
 .social {
     margin: 0;
@@ -269,7 +266,7 @@ h2 {
     color: black;
 }
 
-.who1{
+.who1 {
     overflow: hidden;
     margin: 1.5rem 0 1.5rem;
     padding: 0;
@@ -292,9 +289,7 @@ h2 {
     padding: .3rem 3%;
     background-color: rgba(255, 255, 255, .60); /* Visual Aid */
     color: black;
-    
 }
-
 
 .product {
     overflow: hidden;
@@ -376,8 +371,3 @@ h2 {
 	max-width: 100%;
     height: auto;
 }
-
-
-
-
-
