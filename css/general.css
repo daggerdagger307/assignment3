@@ -374,8 +374,8 @@ h2 {
 }
 
 .video {
-    position: relative;
-        
+	max-width: 100%;
+    height: auto;
 }
 
 
